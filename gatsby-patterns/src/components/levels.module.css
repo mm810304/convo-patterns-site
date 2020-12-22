@@ -1,0 +1,37 @@
+.btnContainer {
+  max-width: 800px;
+  margin: 0 auto 1.5rem auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.filterBtn {
+  background: var(--base-light);
+  color: var(--base-dark);
+  font-family: var(--header-font);
+  font-size: 2rem;
+  margin: 1rem;
+  padding: .5rem 1rem;
+  letter-spacing: .5px;
+  cursor: pointer;
+  border-radius: 5px;
+  border: 2px solid var(--highlight);
+  outline: none;
+  box-shadow: var(--bs-level1);
+}
+
+.selected {
+  background-image: linear-gradient(rgba(37, 71, 71, .7), rgba(37, 71, 71, .4));
+  color: var(--base-light);
+}
+
+.filterBtn:hover,
+.filterBtn:active {
+  transform: scale(1.05);
+  background-image: linear-gradient(rgba(37, 71, 71, .7), rgba(37, 71, 71, .4));
+  color: var(--base-light);
+}
+
+
+

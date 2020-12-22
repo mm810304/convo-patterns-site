@@ -1,0 +1,43 @@
+.footer {
+  height: 9rem;
+  width: 100%;
+  border-top: 3px solid var(--base-light);
+  text-align: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  align-items: center;
+}
+
+.mainText {
+  margin: .5rem 3rem;
+  font-weight: normal;
+  text-transform: uppercase;
+  color: var(--base-light);
+}
+
+.footer a {
+  color: var(--highlight);
+}
+
+.footer a:hover {
+  color: var(--base-light);
+}
+
+.email {
+  color: var(--base-light);
+  font-weight: 400;
+}
+
+@media (max-width: 500px) {
+  .footer {
+    display: grid;
+    grid-template-rows: repeat(3, 1fr);
+    grid-template-columns: 1fr;
+    justify-content: center;
+    height: 12rem;
+  }
+
+  .contact {
+    margin-bottom: .5rem;
+  }
+}

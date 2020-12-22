@@ -1,0 +1,34 @@
+.headerContainer {
+  width: 75%;
+  margin: 1rem auto;
+}
+
+.title {
+  text-align: center;
+  font-size: var(--title-xl);
+  color: var(--base-light);
+  margin: 1rem 0;
+}
+
+.description {
+  text-align: center;
+  font-size: var(--subtitle-large);
+  color: var(--base-light);
+  margin-bottom: 1rem;
+  line-height: var(--line-height-medium);
+}
+
+.otherLessons {
+  text-align: center;
+  font-size: var(--subtitle-large);
+  color: var(--base-light);
+  line-height: var(--line-height-medium);
+}
+
+.colorIt {
+  color: var(--highlight);
+}
+
+.colorIt:hover {
+  color: var(--base-light);
+}

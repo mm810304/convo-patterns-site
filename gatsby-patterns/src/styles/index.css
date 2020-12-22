@@ -1,0 +1,83 @@
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+:root {
+  --base-dark: #254747;
+  --base-light: #fefefa;
+  --light-gray: #d4d9d6;
+  --dark-gray: #2a2b2b;
+  --highlight: #bf6332;
+  --text-gray: #36454f;
+
+  --background: var(--base-dark);
+
+  --title-xl: 4.8rem;
+  --title-large: 4rem;
+  --title-medium: 3.2rem;
+  --title-small: 2.4rem;
+  --title-xs: 2rem;
+
+  --text-large: 2rem;
+  --text-medium: 1.8rem;
+  --text-small: 1.6rem;
+
+  --subtitle-large: 2.2rem;
+  --subtitle-medium: 2rem;
+  --subtitle-small: 1.8rem;
+  --subtitle-xs: 1.4rem;
+  --subtitle-xxs: 1.2rem;
+
+  --line-height-large: 1.8;
+  --line-height-medium: 1.5;
+  --line-height-small: 1.2;
+
+  --bold-font: 700;
+
+  --title-subtitle-padding: 1rem;
+
+  --bs-level1: 0 5px 10p rgba(0, 0, 0, 0.18);
+  --bs-level2: 0 3px 12px 0 rgba(0,0,0,.25);
+  --bs-level3: 0 15px 20px -5px rgba(0,0,0,0.2);
+
+  --border-radius: 8px;
+}
+
+html {
+  font-size: 62.5%;
+  overscroll-behavior: none;
+}
+
+body {
+  background: var(--background);
+  overscroll-behavior: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  max-width: 100%;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: var(--header-font);
+}
+
+p,
+a,
+li {
+  font-family: var(--content-font);
+}
+
+
