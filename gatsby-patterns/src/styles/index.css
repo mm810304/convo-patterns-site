@@ -45,6 +45,11 @@
   --bs-level3: 0 15px 20px -5px rgba(0,0,0,0.2);
 
   --border-radius: 8px;
+
+  --bold-font: 700;
+
+  --header-font: 'Francois One', Arial, sans-serif;
+  --content-font: 'Lato', Arial, sans-serif;
 }
 
 html {
