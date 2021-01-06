@@ -14,7 +14,8 @@ const LessonsPage = ({ data: { lessons }}) => {
     <React.Fragment>
       <SEO 
         title="Convo Patterns Index"
-        description="Full list of all the important English sentence patterns that you need to know."
+        description="Full list of all the important English sentence patterns that you need to know to speak fluent English."
+        location="https://www.convopatterns.com/lessons"
       />
       <div className={styles.wrapper}>
         <h1 className={styles.header}><span className={styles.underline}>All Lessons</span></h1>

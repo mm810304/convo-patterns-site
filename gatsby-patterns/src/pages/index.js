@@ -39,7 +39,8 @@ const HomePage = ({ data: { lessons }}) => {
   return (
     <React.Fragment>
       <SEO 
-        title="Learn English Sentence Patterns" description="Learn all the key English sentence patterns to speak fluent English and understand native English speakers perfectly.  See how to use the patterns and many real-world examples." 
+        title="Learn English Sentence Patterns" description="Learn English sentence patterns to speak fluent English and understand native English speakers perfectly.  See how to use and many real-world examples."
+        location="https://www.convopatterns.com"
       />
       <MainPageHeader />
       <Levels levels={allLevels} filterLessons={filterLessons} selectedLevel={isSelectedLevel} />

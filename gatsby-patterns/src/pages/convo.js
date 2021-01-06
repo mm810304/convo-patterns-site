@@ -11,7 +11,7 @@ const Convo = () => {
       {
         resourceData.map((resource) => {
           return (
-            <a href={resource.url} target="_blank" rel="noreferrer"><div key={resource.id} className={resourceStyles.resource}>
+            <a href={resource.url} target="_blank" rel="noreferrer" key={resource.id}><div className={resourceStyles.resource}>
               <h2>{resource.text}</h2>
               <p>{resource.description}</p>
             </div></a>
